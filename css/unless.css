@@ -1,0 +1,204 @@
+/* wordpress overrides outside of plugin scope */
+
+body.tools_page_unless {
+	background: #eee !important;
+}
+
+.tools_page_unless #wpcontent {
+    padding-left: 0;
+}
+
+.tools_page_unless .wrap {
+	display: none;
+}
+
+/* within plugin scope */
+
+.tools_page_unless .mdl-layout__container {
+	position: relative;
+	display: block;
+}
+
+body.tools_page_unless .mdl-layout {
+	background: #eee !important;
+	display:block;
+    margin-right: 0;
+    margin-top: 0;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+    color: rgba(0,0,0,.87);
+}
+
+.tools_page_unless .mdl-layout a {
+  color: #db4437;
+}
+
+.tools_page_unless .mdl-layout h2 {
+	font-family: 'Roboto Slab', 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+	font-size: 32px;
+	line-height: 1.10;
+}
+
+.tools_page_unless .mdl-layout .mdl-layout__header a.mdl-navigation__link {
+	color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent!important;
+    border-bottom: 4px solid transparent;
+}
+
+.tools_page_unless .mdl-layout .mdl-layout__header a.mdl-navigation__link:hover {
+    border-bottom: 4px solid #04acc2;
+}
+
+.tools_page_unless .mdl-layout__content {
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+.tools_page_unless .mdl-layout .mdl-layout__header, .tools_page_unless .mdl-layout .mdl-layout__drawer-button, .tools_page_unless .mdl-layout .mdl-navigation__link {
+	font-family: 'Roboto Mono', 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+	background: white;
+	color: rgba(0,0,0,.87);
+}
+
+.tools_page_unless .mdl-layout .unless-logo-wrapper {
+	display: inline-block;
+    padding-left: 25px;
+    background-color: transparent !important;
+}
+
+.tools_page_unless .mdl-layout #unless-logo {
+	position: absolute;
+	left: 0;
+	height: 28px;
+	top: -13px;
+}
+
+.tools_page_unless  .mdl-layout .mdl-layout__drawer {
+	display:none;
+}
+
+.tools_page_unless  .mdl-layout .mdl-layout__drawer.is-visible {
+	background: white;
+	display: block;
+}
+
+.tools_page_unless .mdl-layout #unless-drawer-logo {
+	left: 0;
+	height: 28px;
+}
+
+.tools_page_unless .mdl-layout .page-content {
+	width: 95%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.tools_page_unless .mdl-layout .mdl-card {
+	width: 100%;
+	padding-bottom:30px;
+}
+
+.tools_page_unless .mdl-layout .mdl-card .mdl-grid {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.tools_page_unless .mdl-layout .mdl-card .mdl-grid {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.tools_page_unless .mdl-layout .mdl-tabs__tab-bar {
+    -webkit-justify-content: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.tools_page_unless .mdl-layout .mdl-tabs__tab-bar .mdl-tabs__tab {
+    margin-left: 15px;
+}
+
+.tools_page_unless .mdl-layout .mdl-tooltip {
+  will-change: auto;
+}
+
+.tools_page_unless .mdl-layout input[type=text].mdl-textfield__input {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    display: block;
+    font-size: 16px;
+    font-family: "Helvetica","Arial",sans-serif;
+    margin: 0;
+    padding: 4px 0;
+    width: 100%;
+    background: 0 0;
+    text-align: left;
+    color: inherit;
+}
+
+.tools_page_unless .mdl-layout .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+	color: #db4437 !important;
+}
+
+.tools_page_unless .mdl-layout .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after  {
+	background: #db4437 !important;
+}
+
+
+.tools_page_unless .mdl-layout a.mdl-tabs__tab {
+	color: rgba(0,0,0,.54) !important;
+	cursor: pointer;
+}
+
+.tools_page_unless .mdl-layout a.mdl-tabs__tab:focus {
+	box-shadow: none;
+}
+
+/* ACCENT */
+
+.tools_page_unless .mdl-layout .mdl-button--accent.mdl-button--accent.mdl-button--raised {
+  color: #F44235 !important;
+  background-color: white !important;
+}
+.tools_page_unless .mdl-layout .mdl-button--accent.mdl-button--accent.mdl-button--raised:hover {
+  background-color: #F3F3F3 !important;
+}
+
+/* COLORED */
+
+.tools_page_unless .mdl-layout .mdl-button--raised.mdl-button--colored {
+  background-color:  #04ACC2 !important;
+}
+
+.tools_page_unless .mdl-layout .mdl-button--raised.mdl-button--colored:hover {
+  background-color: #52C2D2 !important;
+}
+  
+.tools_page_unless .mdl-layout .mdl-button--fab.mdl-button--colored {
+  background-color: #04ACC2 !important;
+}
+.tools_page_unless .mdl-layout .mdl-button--fab.mdl-button--colored:hover {
+  background-color: #52C2D2  !important;
+}
+
+/* PRIMARY */
+
+.tools_page_unless .mdl-layout .mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab {
+  color: white !important;
+  background-color:  #04ACC2 !important;
+}
+
+.tools_page_unless .mdl-layout .mdl-button--primary.mdl-button--primary, .tools_page_unless .mdl-layout input.mdl-button--primary.mdl-button--primary {
+  color: #04ACC2 !important;;
+}
+
+.tools_page_unless .mdl-layout .mdl-button--raised.mdl-button--primary:hover, .tools_page_unless .mdl-layout input.mdl-button--raised.mdl-button--primary:hover {
+  background-color: #52C2D2 !important;
+}
+

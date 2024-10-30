@@ -1,0 +1,67 @@
+.mdl-layout input
+{
+	margin:0;
+	border:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:none;
+	line-height:1;
+	
+	/* Browsers have different default form fonts */
+	font-size:13px;
+	font-family:Arial;
+}
+
+/* Remove the stupid outer glow in Webkit */
+.mdl-layout input:focus
+{
+	outline:0;
+}
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+
+/* All of our custom controls should be what we expect them to be */
+.mdl-layout input
+{
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}
+
+
+/* Text Inputs
+-----------------------------------------------*/
+
+.mdl-layout input[type=text], 
+.mdl-layout input[type=text]:focus
+{
+	border: none; 
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: none;
+	color: #666;
+	outline: none;
+	-webkit-transition: none;
+	transition: none;
+}
+
+
+/* Buttons
+-----------------------------------------------*/
+
+.mdl-layout button
+{
+	/* Fix IE7 display bug */
+	overflow:visible;
+	width:auto;
+}
+
+/* Resets for the browsers that support this
+-----------------------------------------------*/
+
+.tools_page_instant .mdl-layout, .mdl-layout input {
+	all: initial;
+}
